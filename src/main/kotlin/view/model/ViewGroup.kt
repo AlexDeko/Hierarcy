@@ -1,9 +1,14 @@
 package view.model
 
-class ViewGroup(): View() {
+class ViewGroup() : View() {
+    private var viewGroup: View
+        get() {
+            TODO()
+        }
+        set(value) {}
 
-    companion object fun addView(view: View){
-
+    fun addView(view: View) {
+        viewGroup = view
     }
 
 }
