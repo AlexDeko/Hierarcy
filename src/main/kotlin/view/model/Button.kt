@@ -1,4 +1,4 @@
 package view.model
 
-class Button(override val text: String) : TextView(text) {
+class Button(private val textButton: String) : TextView(textButton) {
 }

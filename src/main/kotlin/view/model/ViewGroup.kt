@@ -1,14 +1,10 @@
 package view.model
 
 class ViewGroup() : View() {
-    private var viewGroup: View
-        get() {
-            TODO()
-        }
-        set(value) {}
+    private var view: View = View()
 
     fun addView(view: View) {
-        viewGroup = view
+        this.view = view
     }
 
 }
